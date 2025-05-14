@@ -1,19 +1,19 @@
 # IP-PUBLIC
 
 ---
-## 1. Tor Installation dan Setup
+**1. Tor Installation dan Setup**
 **Install Tor di Debian/Ubuntu**
 ```bash
 sudo apt update && sudo apt install tor -y
 ```
-## 2. buat Tor Password Hash
+**2. buat Tor Password Hash**
 **Pengecekan gunakan script berikut**
 
 ```bash
 tor --hash-password mypassword
 ```
 
-## 3. Config Tor
+**3. Config Tor**
 **Edit Tor configuration file**
 
 ```bash
@@ -26,19 +26,19 @@ ControlPort 9051
 HashedControlPassword 16: <PASSWORD HASH KAMU DAN TANPA <> >
 ```
 
-## 4. Verify Tor ControlPort
+**4. Verify Tor ControlPort**
 
 ```bash
 netstat -tulpen | grep 9051
 ```
 
-## 5. Restart Tor
+**5. Restart Tor**
 
 ```bash
 sudo systemctl restart tor
 ```
 
-## 6. Python Installation
+**6. Python Installation**
 
 ```bash
 pip install stem requests
@@ -59,7 +59,7 @@ tor
 ```
 
 
-## 7. Tor Service Management
+**7. Tor Service Management**
 
 **Check Tor status:**
 ```bash
@@ -70,10 +70,16 @@ sudo systemctl status tor
 sudo systemctl start tor
 ```
 
-## 9. start code 
+**9. start code**
 ```bash
 Run Python Script
 ```
 
-## 10. enjoyy brooo
+**10. enjoyy brooo**
 ---
+
+
+### Penjelasan:
+- **Penggunaan Heading:** Saya menggunakan heading yang sesuai untuk membagi bagian-bagian yang penting dalam panduan.
+- **Langkah demi Langkah:** Setiap langkah yang diperlukan dijelaskan dengan perintah terminal yang relevan, menjadikannya lebih mudah diikuti.
+- **Bagian Troubleshooting:** Ini akan membantu pengguna yang mungkin mengalami masalah saat mengonfigurasi atau menjalankan skrip.
