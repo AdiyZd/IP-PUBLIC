@@ -2,24 +2,24 @@
 
 ---
 ## 1. Tor Installation dan Setup
-### Install Tor on Debian/Ubuntu
+**Install Tor on Debian/Ubuntu**
 ```bash
 sudo apt update && sudo apt install tor -y
 ```
 ## 2. Generate Tor Password Hash
-### Pengecekan gunakan script berikut
+**Pengecekan gunakan script berikut**
 
 ```bash
 tor --hash-password mypassword
 ```
 
 ## 3. Configure Tor
-### Edit Tor configuration file
+**Edit Tor configuration file**
 
 ```bash
 sudo nano /etc/tor/torrc
 ```
-tambahkan file di paling bawah setingan 
+**tambahkan file di paling bawah setingan** 
 ```bash
 
 ControlPort 9051 
