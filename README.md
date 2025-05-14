@@ -56,6 +56,9 @@ pip install PySocks
 **Install Tor :**
 ```bash
 sudo apt update && sudo apt install tor -y
+```
+**Jalankan Tor**
+```bash
 tor
 ```
 
