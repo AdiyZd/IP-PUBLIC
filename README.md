@@ -2,18 +2,18 @@
 
 ---
 ## 1. Tor Installation dan Setup
-**Install Tor on Debian/Ubuntu**
+**Install Tor di Debian/Ubuntu**
 ```bash
 sudo apt update && sudo apt install tor -y
 ```
-## 2. Generate Tor Password Hash
+## 2. buat Tor Password Hash
 **Pengecekan gunakan script berikut**
 
 ```bash
 tor --hash-password mypassword
 ```
 
-## 3. Configure Tor
+## 3. Config Tor
 **Edit Tor configuration file**
 
 ```bash
@@ -44,7 +44,7 @@ sudo systemctl restart tor
 pip install stem requests
 ```
 
-### Alternative using virtual environment (VENV)
+### **Alternative** using virtual environment (VENV)
 
 ```bash
 python3 -m venv venv 
