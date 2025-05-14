@@ -48,7 +48,7 @@ sudo systemctl restart tor
 pip install stem requests
 ```
 
-### **Alternative** using virtual environment (VENV)
+- **Alternative** using virtual environment (VENV)
 
 ```bash
 python3 -m venv venv 
