@@ -4,13 +4,13 @@
 ## LANGKAH-LANGKAH INSTALASI:
 **1. Tor Installation dan Setup**
 <br>
-**Install Tor di Debian/Ubuntu:**
+- Install Tor di Debian/Ubuntu:
 ```bash
 sudo apt update && sudo apt install tor -y
 ```
 **2. buat Tor Password Hash**
 <br>
-**Pengecekan gunakan script berikut:**
+- Pengecekan gunakan script berikut:
 
 ```bash
 tor --hash-password mypassword
@@ -18,12 +18,12 @@ tor --hash-password mypassword
 
 **3. Config Tor**
 <br>
-**Edit Tor configuration file:**
+- Edit Tor configuration file:
 
 ```bash
 sudo nano /etc/tor/torrc
 ```
-**tambahkan file di paling bawah setingan:** 
+- tambahkan file di paling bawah setingan: 
 ```bash
 
 ControlPort 9051 
@@ -68,11 +68,11 @@ tor
 
 **7. Tor Service Management**
 <br>
-**Check Tor status:**
+- Check Tor status:
 ```bash
 sudo systemctl status tor
 ```
-**Start tor:**
+- Start tor:
 ```bash
 sudo systemctl start tor
 ```
@@ -83,6 +83,7 @@ Run Python Script
 ```
 
 **10. enjoyy brooo**
+<br>
 ---
 
 
