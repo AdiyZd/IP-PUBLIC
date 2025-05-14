@@ -1,6 +1,7 @@
 # IP-PUBLIC
 
 ---
+## LANGKAH-LANGKAH INSTALASI
 **1. Tor Installation dan Setup**
 **Install Tor di Debian/Ubuntu**
 ```bash
