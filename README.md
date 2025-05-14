@@ -3,6 +3,7 @@
 ---
 ## LANGKAH-LANGKAH INSTALASI:
 **1. Tor Installation dan Setup**
+<br>
 **Install Tor di Debian/Ubuntu:**
 ```bash
 sudo apt update && sudo apt install tor -y
@@ -15,6 +16,7 @@ tor --hash-password mypassword
 ```
 
 **3. Config Tor**
+<br>
 **Edit Tor configuration file:**
 
 ```bash
