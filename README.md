@@ -79,7 +79,7 @@ Run Python Script
 ---
 
 
-### Penjelasan:
+### ⚠️ Penjelasan:
 - **Penggunaan Heading:** Saya menggunakan heading yang sesuai untuk membagi bagian-bagian yang penting dalam panduan.
 - **Langkah demi Langkah:** Setiap langkah yang diperlukan dijelaskan dengan perintah terminal yang relevan, menjadikannya lebih mudah diikuti.
 - **Bagian Troubleshooting:** Ini akan membantu pengguna yang mungkin mengalami masalah saat mengonfigurasi atau menjalankan skrip.
