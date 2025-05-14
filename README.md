@@ -9,6 +9,7 @@
 sudo apt update && sudo apt install tor -y
 ```
 **2. buat Tor Password Hash**
+<br>
 **Pengecekan gunakan script berikut:**
 
 ```bash
@@ -66,7 +67,7 @@ tor
 
 
 **7. Tor Service Management**
-
+<br>
 **Check Tor status:**
 ```bash
 sudo systemctl status tor
